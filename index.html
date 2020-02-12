@@ -7,6 +7,15 @@ Sites
 <body>
 <p>
 Email justin.e.fu@outlook.com to reserve a site, or fu4986@mydusd (for DUSD students).
+  Or you can try clicking <button id="showform">here</button>
 </p>
+  <div id="form">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3eIqm9p2IJIGfcUNoZ9dmdOLq3sUEzeVrBpXxUpP81Ldp3Q/viewform?embedded=true" width="640" height="717" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+  <script>
+    document.getElementById("showform").addEventListener("click", function(){
+      document.getELementById("form").style.display = "block";
+    });
+  </script>
 </body>
 </html>
